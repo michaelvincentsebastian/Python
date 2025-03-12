@@ -23,6 +23,6 @@ factorial = 1
 nFac = nFactorial(n, factorial)
 rFac = rFactorial(r, factorial)
 nminrFac = nrFactorial(n, r, factorial)
-
 calculate = nFac/(rFac*nminrFac)
-print(calculate)
+
+print("total combination: ",int(calculate))
