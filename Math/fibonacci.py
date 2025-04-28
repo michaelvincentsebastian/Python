@@ -1,19 +1,16 @@
-'''
-Fibonacci
-'''
-dev Fibonaci(length, firstValue):
+def fibonaci(length, first):
     second = first+1
 
     fibo = []
     
     for i in range (1, length+1):
-    nextValue = first+second
-    first = second
-    second = nextValue
-    fibo.append(nextValue)
+        fibo.append(first)
+        nextValue = first+second
+        first = second
+        second = nextValue 
     
-print(fibo)
+    print(fibo)
 
 length = int(input(" Row Length: ")) 
 first = int(input(" first value: "))
-fibonaci
+fibonaci(length, first)
