@@ -1,9 +1,19 @@
 '''
-Fibonacci Java
+Fibonacci
 '''
-import random
+dev Fibonaci(length, firstValue):
+    second = first+1
 
-i = int(input(" Row Length: ")) 
+    fibo = []
+    
+    for i in range (1, length+1):
+    nextValue = first+second
+    first = second
+    second = nextValue
+    fibo.append(nextValue)
+    
+print(fibo)
+
+length = int(input(" Row Length: ")) 
 first = int(input(" first value: "))
-second = first+1
-for i in range
+fibonaci
